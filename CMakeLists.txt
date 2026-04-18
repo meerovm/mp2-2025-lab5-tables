@@ -51,3 +51,8 @@ add_custom_command(TARGET tables_test POST_BUILD
     COMMAND tables_test
     COMMENT "--- ЗАПУСК ТЕСТОВ ПОСЛЕ СБОРКИ ---"
 )
+
+set_target_properties(tables_test PROPERTIES 
+    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/test"
+    RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_BINARY_DIR}/test/Release"
+)
