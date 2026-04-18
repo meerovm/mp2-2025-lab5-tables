@@ -27,38 +27,27 @@ file(GLOB PROJECT_HEADERS
     "*.h"
 )
 
-
-list(REMOVE_ITEM ALL_SOURCES "Sample.cpp" "test_polinom.cpp" "test_mas.cpp"  "test_umas.cpp"  "test_tree.cpp"  "test_table.cpp")
+list(REMOVE_ITEM ALL_SOURCES "Sample.cpp" "test_polinom.cpp" "test_mas.cpp" "test_umas.cpp" "test_tree.cpp" "test_table.cpp")
 
 
 add_library(CoreLogic STATIC ${ALL_SOURCES} ${PROJECT_HEADERS})
 target_include_directories(CoreLogic PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
-
 add_executable(MainApp Sample.cpp)
 target_link_libraries(MainApp PRIVATE CoreLogic)
 
+
 add_executable(tables_test test_polinom.cpp test_mas.cpp test_umas.cpp test_tree.cpp test_table.cpp)
-
-
 target_include_directories(tables_test PRIVATE ${googletest_SOURCE_DIR}/googletest/include)
 target_include_directories(tables_test PRIVATE ${googletest_SOURCE_DIR}/googlemock/include)
 
 
 target_link_libraries(tables_test PRIVATE CoreLogic gtest gtest_main)
 
-
 enable_testing()
 add_test(NAME AllTests COMMAND tables_test)
 
-
 add_custom_command(TARGET tables_test POST_BUILD
     COMMAND tables_test
-    COMMENT "--- ЗАПУСК ТЕСТОВ ПОСЛЕ СБОРКИ ---"
-)
-
-
-add_custom_command(TARGET TestApp POST_BUILD
-    COMMAND TestApp
     COMMENT "--- ЗАПУСК ТЕСТОВ ПОСЛЕ СБОРКИ ---"
 )
