@@ -1,5 +1,6 @@
 // polinom from lab4 polinom
 // new: operator >/</=
+// new: class randpolinom
 #ifndef _list
 #include "list.h"
 #define _list
