@@ -1,0 +1,5 @@
+﻿  TableAndTreeLab.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\TableAndTreeLab.cpp(50,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+C:\Users\Misha\source\repos\TableAndTreeLab\TableAndTreeLab.cpp(56,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\Misha\source\repos\TableAndTreeLab\TableAndTreeLab.cpp(61,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  TableAndTreeLab.vcxproj -> C:\Users\Misha\source\repos\TableAndTreeLab\x64\Debug\TableAndTreeLab.exe

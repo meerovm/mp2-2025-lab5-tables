@@ -1,0 +1,91 @@
+﻿  list.cpp
+  mas.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(61,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "mas.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(67,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "mas.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(72,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "mas.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\mas.cpp(18,11): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Misha\source\repos\TableAndTreeLab\mas.cpp(29,15): warning C4244: инициализация: преобразование "__int64" в "int", возможна потеря данных
+  polinom.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(61,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "polinom.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(67,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "polinom.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(72,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "polinom.cpp")
+  
+  table.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(61,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "table.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(67,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "table.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(72,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "table.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\table.cpp(9,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Misha\source\repos\TableAndTreeLab\table.cpp(12,57): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+C:\Users\Misha\source\repos\TableAndTreeLab\table.cpp(20,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Misha\source\repos\TableAndTreeLab\table.cpp(23,57): warning C4267: =: преобразование из "size_t" в "unsigned int"; возможна потеря данных
+  TableAndTreeLab.cpp
+/TableAndTreeLab.cpp(1,1): error C1083: Не удается открыть файл источник: TableAndTreeLab.cpp: No such file or directory,
+  (компиляция исходного файла "/TableAndTreeLab.cpp")
+  
+  test_main.cpp
+/test_main.cpp(1,1): error C1083: Не удается открыть файл источник: test_main.cpp: No such file or directory,
+  (компиляция исходного файла "/test_main.cpp")
+  
+  test_polinom.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(61,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "test_polinom.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(67,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "test_polinom.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(72,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "test_polinom.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\test_polinom.cpp(7,10): error C1083: Не удается открыть файл включение: gtest/gtest.h: No such file or directory,
+  tree.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(61,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "tree.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(67,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "tree.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(72,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "tree.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\stack.h(21,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  (компиляция исходного файла "tree.cpp")
+      C:\Users\Misha\source\repos\TableAndTreeLab\stack.h(21,13):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\Misha\source\repos\TableAndTreeLab\tree.cpp(20,13):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "Stack<nd *>"
+          C:\Users\Misha\source\repos\TableAndTreeLab\stack.h(16,7):
+          во время компиляции функции-члена класс шаблон "void Stack<nd *>::Push(const T &)"
+          with
+          [
+              T=nd *
+          ]
+              C:\Users\Misha\source\repos\TableAndTreeLab\tree.cpp(23,9):
+              см. первую ссылку на "Stack<nd *>::Push" в "rbtree::~rbtree"
+  
+  umas.cpp
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(61,10): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "umas.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(67,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "umas.cpp")
+  
+C:\Users\Misha\source\repos\TableAndTreeLab\polinom.h(72,10): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  (компиляция исходного файла "umas.cpp")
+  
